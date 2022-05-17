@@ -68,7 +68,7 @@ public class Enfant implements Initializable {
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/autisme", "root","");
-            //System.out.println("connecté");
+            System.out.println("connecté");
         }
         catch (ClassNotFoundException ex)
         {
